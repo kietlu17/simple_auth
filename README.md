@@ -15,7 +15,7 @@ Thư mục này gồm hai ví dụ xác thực:
   - ![public_non_secure_2.png](public/results/public_non_secure_2.png)
 
 - **Truy cập secure route**
-  - GET `/secure` với header `Authorization: Basic ...` (username và password lấy từ file .env)
+  - GET `/secure` với header `Authorization: Basic ...` 
   - Đúng thông tin: ![login_passed.png](public/results/login_passed.png)
   - Sai thông tin: ![login_wrong.png](public/results/login_wrong.png)
   - Không gửi header: ![eror_401.png](public/results/eror_401.png)
@@ -41,8 +41,7 @@ Thư mục này gồm hai ví dụ xác thực:
    ```bash
    npm install
    ```
-2. Tạo file `.env`.
-3. Chạy server:
+2. Chạy server:
    ```bash
    node basic_auth.js
    ```
